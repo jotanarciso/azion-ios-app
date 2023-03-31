@@ -1,0 +1,39 @@
+
+
+[
+    {
+        "name": "Real-Time Metrics",
+        "category": "observe",
+        "id": 1,
+        "description": "Real-Time Metrics is an Observe product that provides you with real-time access to metrics so you can optimize all of your potential through our platform.",
+        "imageName": "real-time-metrics-icon",
+        "active": false,
+        "view": "RealTimeMetrics"
+    },
+    {
+        "name": "Real-Time Events",
+        "category": "observe",
+        "id": 2,
+        "description": "Real-Time Events is an Observe module that allows you to display data from your Azion Products and Services in real time. You can use Real-Time Events to perform complex searches and explore data from your Azion applications.",
+        "imageName": "real-time-events-icon",
+        "active": false,
+        "view": "RealTimeEvents"
+    },
+    {
+        "name": "Applications",
+        "category": "build",
+        "id": 3,
+        "description": "Edge Application is a tool that lets you build web applications on the edge network, reducing latency and throughput between origin servers and users.",
+        "imageName": "applications-icon",
+        "active": false,
+        "view": "Applications" 
+    }, {
+        "name": "Real-Time Purge",
+        "category": "build",
+        "id": 4,
+        "description": "Through Real-Time Purge you can instantly delete the cache of your content at Azion, using a Cache Key List, a URL List or a Wildcard expression that represents the objects you want to purge.",
+        "imageName": "real-time-purge-icon",
+        "active": true,
+        "view": "realtimepurge"
+    },
+]

@@ -1,17 +1,24 @@
-//
-//  Azion_RTMApp.swift
-//  Azion RTM
-//
-//  Created by Joao Narciso on 13/03/23.
-//
-
 import SwiftUI
 
 @main
-struct Azion_RTMApp: App {
+struct LaunchScreenTutorialApp: App {
+    
+    @StateObject var launchScreenState = LaunchScreenStateManager()
+    @StateObject var loadingState = LoadingState()
+    @StateObject var personalTokenState = PersonalTokenState()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+                
+                if launchScreenState.state != .finished {
+                    LaunchScreenView()
+                }
+            }
+            .environmentObject(launchScreenState)
+            .environmentObject(loadingState)
+            .environmentObject(personalTokenState)
         }
     }
 }

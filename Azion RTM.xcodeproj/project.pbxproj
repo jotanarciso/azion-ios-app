@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04B5B1A29BFDFFE002BD65A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2514729BFDACF00E18AC8 /* AuthView.swift */; };
+		E0824C2D29BFE5BE00A193EC /* AzButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C2C29BFE5BE00A193EC /* AzButton.swift */; };
+		E0824C3229BFF3A600A193EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C3129BFF3A600A193EC /* HomeView.swift */; };
+		E0824C3429BFFD9A00A193EC /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C3329BFFD9A00A193EC /* ProductRow.swift */; };
+		E0824C3A29BFFE8600A193EC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C3929BFFE8600A193EC /* Product.swift */; };
+		E0824C3D29BFFED400A193EC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C3C29BFFED400A193EC /* ModelData.swift */; };
+		E0824C3F29BFFF5E00A193EC /* productsData.json in Resources */ = {isa = PBXBuildFile; fileRef = E0824C3E29BFFF5E00A193EC /* productsData.json */; };
+		E0824C4129C0037E00A193EC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C4029C0037E00A193EC /* ProductList.swift */; };
+		E0824C4729C02C3900A193EC /* RealTimePurge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C4629C02C3900A193EC /* RealTimePurge.swift */; };
+		E0824C4C29C0ECD000A193EC /* ProductContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C4B29C0ECD000A193EC /* ProductContent.swift */; };
+		E0824C4F29C2AA6100A193EC /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C4E29C2AA6100A193EC /* LoadingState.swift */; };
+		E0824C5129C345B700A193EC /* PersonalTokenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0824C5029C345B700A193EC /* PersonalTokenState.swift */; };
 		E09BD16A29BFC60B00901827 /* Azion_RTMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD16929BFC60B00901827 /* Azion_RTMApp.swift */; };
 		E09BD16C29BFC60B00901827 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD16B29BFC60B00901827 /* ContentView.swift */; };
 		E09BD16E29BFC60D00901827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09BD16D29BFC60D00901827 /* Assets.xcassets */; };
@@ -14,6 +26,10 @@
 		E09BD17B29BFC60D00901827 /* Azion_RTMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD17A29BFC60D00901827 /* Azion_RTMTests.swift */; };
 		E09BD18529BFC60D00901827 /* Azion_RTMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD18429BFC60D00901827 /* Azion_RTMUITests.swift */; };
 		E09BD18729BFC60D00901827 /* Azion_RTMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD18629BFC60D00901827 /* Azion_RTMUITestsLaunchTests.swift */; };
+		E09BD19629BFCDD200901827 /* LaunchScreenStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD19529BFCDD200901827 /* LaunchScreenStep.swift */; };
+		E09BD19829BFCE0B00901827 /* LaunchScreenStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD19729BFCE0B00901827 /* LaunchScreenStateManager.swift */; };
+		E09BD19C29BFCE3E00901827 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09BD19B29BFCE3E00901827 /* LaunchScreenView.swift */; };
+		E0E2514529BFD9BD00E18AC8 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2514429BFD9BD00E18AC8 /* LocalStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0824C2C29BFE5BE00A193EC /* AzButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzButton.swift; sourceTree = "<group>"; };
+		E0824C3129BFF3A600A193EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E0824C3329BFFD9A00A193EC /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		E0824C3929BFFE8600A193EC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E0824C3C29BFFED400A193EC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E0824C3E29BFFF5E00A193EC /* productsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = productsData.json; sourceTree = "<group>"; };
+		E0824C4029C0037E00A193EC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		E0824C4629C02C3900A193EC /* RealTimePurge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimePurge.swift; sourceTree = "<group>"; };
+		E0824C4B29C0ECD000A193EC /* ProductContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductContent.swift; sourceTree = "<group>"; };
+		E0824C4E29C2AA6100A193EC /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		E0824C5029C345B700A193EC /* PersonalTokenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTokenState.swift; sourceTree = "<group>"; };
 		E09BD16629BFC60B00901827 /* Azion RTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azion RTM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09BD16929BFC60B00901827 /* Azion_RTMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azion_RTMApp.swift; sourceTree = "<group>"; };
 		E09BD16B29BFC60B00901827 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +71,11 @@
 		E09BD18029BFC60D00901827 /* Azion RTMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Azion RTMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09BD18429BFC60D00901827 /* Azion_RTMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azion_RTMUITests.swift; sourceTree = "<group>"; };
 		E09BD18629BFC60D00901827 /* Azion_RTMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azion_RTMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E09BD19529BFCDD200901827 /* LaunchScreenStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenStep.swift; sourceTree = "<group>"; };
+		E09BD19729BFCE0B00901827 /* LaunchScreenStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenStateManager.swift; sourceTree = "<group>"; };
+		E09BD19B29BFCE3E00901827 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		E0E2514429BFD9BD00E18AC8 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		E0E2514729BFDACF00E18AC8 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0824C2B29BFE5AB00A193EC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C2C29BFE5BE00A193EC /* AzButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E0824C3029BFF39B00A193EC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C3129BFF3A600A193EC /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E0824C3829BFFE7C00A193EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C3E29BFFF5E00A193EC /* productsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0824C3B29BFFEC600A193EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C3929BFFE8600A193EC /* Product.swift */,
+				E0824C3C29BFFED400A193EC /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0824C4229C004AA00A193EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C3329BFFD9A00A193EC /* ProductRow.swift */,
+				E0824C4029C0037E00A193EC /* ProductList.swift */,
+				E0824C4B29C0ECD000A193EC /* ProductContent.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		E0824C4329C02C1600A193EC /* RealTimePurge */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C4629C02C3900A193EC /* RealTimePurge.swift */,
+			);
+			path = RealTimePurge;
+			sourceTree = "<group>";
+		};
+		E0824C4D29C2AA4B00A193EC /* States */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C4E29C2AA6100A193EC /* LoadingState.swift */,
+				E0824C5029C345B700A193EC /* PersonalTokenState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
 		E09BD15D29BFC60B00901827 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +186,12 @@
 		E09BD16829BFC60B00901827 /* Azion RTM */ = {
 			isa = PBXGroup;
 			children = (
+				E0824C4D29C2AA4B00A193EC /* States */,
+				E0824C3B29BFFEC600A193EC /* Model */,
+				E0824C3829BFFE7C00A193EC /* Resources */,
+				E0824C2B29BFE5AB00A193EC /* Components */,
+				E0E2514329BFD9A000E18AC8 /* Utils */,
+				E09BD19329BFCD5F00901827 /* Views */,
 				E09BD16929BFC60B00901827 /* Azion_RTMApp.swift */,
 				E09BD16B29BFC60B00901827 /* ContentView.swift */,
 				E09BD16D29BFC60D00901827 /* Assets.xcassets */,
@@ -125,6 +223,44 @@
 				E09BD18629BFC60D00901827 /* Azion_RTMUITestsLaunchTests.swift */,
 			);
 			path = "Azion RTMUITests";
+			sourceTree = "<group>";
+		};
+		E09BD19329BFCD5F00901827 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0824C4329C02C1600A193EC /* RealTimePurge */,
+				E0824C4229C004AA00A193EC /* Products */,
+				E0824C3029BFF39B00A193EC /* Home */,
+				E0E2514629BFDABE00E18AC8 /* Auth */,
+				E0E2514229BFD79D00E18AC8 /* LaunchScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0E2514229BFD79D00E18AC8 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E09BD19729BFCE0B00901827 /* LaunchScreenStateManager.swift */,
+				E09BD19529BFCDD200901827 /* LaunchScreenStep.swift */,
+				E09BD19B29BFCE3E00901827 /* LaunchScreenView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		E0E2514329BFD9A000E18AC8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2514429BFD9BD00E18AC8 /* LocalStorage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E0E2514629BFDABE00E18AC8 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2514729BFDACF00E18AC8 /* AuthView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0824C3F29BFFF5E00A193EC /* productsData.json in Resources */,
 				E09BD17129BFC60D00901827 /* Preview Assets.xcassets in Resources */,
 				E09BD16E29BFC60D00901827 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +394,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0824C3229BFF3A600A193EC /* HomeView.swift in Sources */,
+				E0824C2D29BFE5BE00A193EC /* AzButton.swift in Sources */,
+				E0824C4129C0037E00A193EC /* ProductList.swift in Sources */,
+				E09BD19C29BFCE3E00901827 /* LaunchScreenView.swift in Sources */,
+				E0824C3429BFFD9A00A193EC /* ProductRow.swift in Sources */,
+				E04B5B1A29BFDFFE002BD65A /* AuthView.swift in Sources */,
+				E0824C3D29BFFED400A193EC /* ModelData.swift in Sources */,
+				E0824C3A29BFFE8600A193EC /* Product.swift in Sources */,
+				E09BD19829BFCE0B00901827 /* LaunchScreenStateManager.swift in Sources */,
+				E09BD19629BFCDD200901827 /* LaunchScreenStep.swift in Sources */,
+				E0824C4C29C0ECD000A193EC /* ProductContent.swift in Sources */,
+				E0E2514529BFD9BD00E18AC8 /* LocalStorage.swift in Sources */,
+				E0824C4F29C2AA6100A193EC /* LoadingState.swift in Sources */,
+				E0824C5129C345B700A193EC /* PersonalTokenState.swift in Sources */,
 				E09BD16C29BFC60B00901827 /* ContentView.swift in Sources */,
+				E0824C4729C02C3900A193EC /* RealTimePurge.swift in Sources */,
 				E09BD16A29BFC60B00901827 /* Azion_RTMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

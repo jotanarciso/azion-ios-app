@@ -6,8 +6,28 @@
 	<dict>
 		<key>Azion RTM.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E09BD16529BFC60B00901827</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E09BD17529BFC60D00901827</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E09BD17F29BFC60D00901827</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
